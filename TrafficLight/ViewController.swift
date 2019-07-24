@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var lighterViews: UIView!
+    @IBOutlet var lighterViews: [UIView]!
     @IBOutlet weak var startButton: UIButton!
     
     override func viewDidLoad() {

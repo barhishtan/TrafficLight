@@ -67,8 +67,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="lighterViews" destination="DvT-9I-kdX" id="Khm-fS-rhF"/>
                         <outlet property="startButton" destination="6C4-CP-re5" id="zpa-Cs-oDO"/>
+                        <outletCollection property="lighterViews" destination="yei-ox-i5i" collectionClass="NSMutableArray" id="RIE-UT-lIg"/>
+                        <outletCollection property="lighterViews" destination="nt5-2v-9b8" collectionClass="NSMutableArray" id="gGg-Vp-5Gm"/>
+                        <outletCollection property="lighterViews" destination="DvT-9I-kdX" collectionClass="NSMutableArray" id="PkI-Az-dPb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
