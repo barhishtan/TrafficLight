@@ -30,15 +30,15 @@
                                     <action selector="startLighter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PfT-Tw-OhZ"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nt5-2v-9b8">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nt5-2v-9b8">
                                 <rect key="frame" x="101" y="217.5" width="173" height="173"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DvT-9I-kdX">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DvT-9I-kdX">
                                 <rect key="frame" x="101" y="410.5" width="173" height="172.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yei-ox-i5i">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yei-ox-i5i">
                                 <rect key="frame" x="101" y="25" width="173" height="172.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -67,7 +67,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="startButton" destination="6C4-CP-re5" id="zpa-Cs-oDO"/>
                         <outletCollection property="lighterViews" destination="yei-ox-i5i" collectionClass="NSMutableArray" id="RIE-UT-lIg"/>
                         <outletCollection property="lighterViews" destination="nt5-2v-9b8" collectionClass="NSMutableArray" id="gGg-Vp-5Gm"/>
                         <outletCollection property="lighterViews" destination="DvT-9I-kdX" collectionClass="NSMutableArray" id="PkI-Az-dPb"/>
